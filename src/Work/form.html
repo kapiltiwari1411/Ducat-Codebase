@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <form name="MyForm">
+        Name:-
+        <input type="text" name="n" placeholder="Enter name" maxlength="5" size="20px">
+        <input type="text" name="Ln" placeholder="Enter Last name" maxlength="5" size="20px" value="Tiwari">
+        <br><br>
+        Enter Password
+        <input type="password" name="pass" placeholder="Enter pass" size="40px" maxlength="7">
+        <br><br>
+        DOB:
+        <input type="date" name="d" min="2024-05-15" max="2024-10-20">
+
+        <br><br>
+        File Upload
+        <input type="file" name="f"multiple>
+
+        <br><br>
+        Gender:
+        <input type="radio" name="g" value="male">Male
+        <input type="radio" name="g" value="male" checked>Female
+
+        <br><br>
+        Tick:
+        <input type="checkbox" name="c" value="php">PHP
+        <input type="checkbox" name="c" value="php">JAVA
+        <input type="checkbox" name="c" value="php">CSS
+        <br><br>
+        Adress:
+        <textarea name="ad" rows="5"cols=40 placeholder="Enter Adress"></textarea>
+        <textarea name="ad" rows="5"cols=40 placeholder="Enter Adress" readonly>
+            dgghgjhffhjgdsffdhghkuyurtgfhghghvhgfhfhhhhhghghhhg
+        </textarea>
+        <br><br>
+        Select year:
+        <select name="yeardata">
+            <option disabled selected>year</option>
+            <option>2000</option>
+            <br>
+            <br>
+            <input type="submit" value="send">
+            <button type="submit">Login</button>
+            <input type="rest" name="re" value="reset">
+        </select>
+    </form>
+</body>
+</html>

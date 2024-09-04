@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+        <tr>
+            <th colspan="4">
+                Student Name
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                Name
+            </th>
+            <th colspan="2">Result</th>
+        </tr>
+        <tr>
+            <th>Fname</th>
+            <th>Lname</th>
+            <th>PHP</th>
+            <th>JAVA</th>
+        </tr>
+        <tr>
+            <td>Hari</td>
+            <td>Kumar</td>
+            <td>67</td>
+            <td>86</td>
+        </tr>
+        <tr>
+            <td>Amit</td>
+            <td>Kumar</td>
+            <td>45</td>
+            <td>48</td>
+        </tr>
+        <tr>
+            <td>Kapil</td>
+            <td>Tiwari</td>
+            <td>98</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            <td>Kumar</td>
+            <td>75</td>
+            <td>23</td>
+        </tr>
+        
+    </table>
+    <br>
+    <br>
+    <br>
+    <h2>colspan and row span example</h2>
+    <table border="2px">
+        <tr>
+            <th colspan="4">
+                Student Name
+            </th>
+        </tr>
+        <tr>
+            <th colspan="2">
+                Name
+            </th>
+            <th colspan="2">Result</th>
+        </tr>
+        <tr>
+            <th>Fname</th>
+            <th>Lname</th>
+            <th>PHP</th>
+            <th>JAVA</th>
+        </tr>
+        <tr>
+            <td>Hari</td>
+            <td rowspan="4">Kumar</td>
+            <td>67</td>
+            <td rowspan="2">86</td>
+        </tr>
+        <tr>
+            <td>Amit</td>
+            <td>45</td>
+            
+        </tr>
+        <tr>
+            <td>Kapil</td>
+            
+            <td rowspan="2">98</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>Ram</td>
+            
+            
+            <td>23</td>
+        </tr>
+        
+    </table>
+    <br><br>
+    <br>
+    <br>
+    <h2>colspan and row span example</h2>
+    <table border="2px" width="400px" >
+        <tr>
+            <td rowspan="2" colspan="2">1</td>
+            <td colspan="2">2</td>
+            <td colspan="2" rowspan="3">3</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td rowspan="3">6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td colspan="3">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td colspan="2">13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+    <br>
+    <h2>table web page</h2>
+    <table border="1px" height="1000px" width="100%">
+        <tr height="150px" bgcolor="orange">
+            <td colspan="4">header</td >
+        </tr>
+        <tr height="50px">
+            <td><a href="Assignment1.html" target="mydata">Home</a></td>
+            <td><a href="Assignment1.html" target="mydata">About</a></td>
+            <td><a href="Assignment2.html" target="mydata">News</a></td>
+            <td><a href="Assignment3.html" target="mydata">Contect</a></td>
+        </tr>
+        <tr height="700px" >
+            <td colspan="3" bgcolor="grey">
+                <iframe name="mydata"
+                height="700px" width="100%" src="Assignment1.html" ></iframe>
+            </td>
+            <td bgcolor="grey">Rigth</td>
+        </tr>
+        <tr height="100px" bgcolor="black">
+            <td colspan="4"><font color="white">footer</font></td>
+        </tr>
+
+    </table>
+</body>
+</html>
